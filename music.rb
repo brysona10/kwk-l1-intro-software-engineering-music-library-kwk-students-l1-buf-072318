@@ -5,7 +5,7 @@ list_artists {"Taylor Swift"=> Our song,
 
 
 list_artists(playlist)
-  list_artists.each do |artist, song|
+  playlist.each do |artist, song|
     puts artist
   end
 end
