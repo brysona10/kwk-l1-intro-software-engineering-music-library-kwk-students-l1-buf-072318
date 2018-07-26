@@ -1,10 +1,8 @@
 
 #1. Define a method named `list_artists`. This method should use the `each_key` method to iterate over the hash and return all the artists (the keys)
 # This method should accept a hash as an argument.
-list_artists {"Taylor Swift"=> Our song,
 
-
-list_artists(playlist)
+def list_artists(playlist)
   playlist.each do |artist, song|
     puts artist
   end
